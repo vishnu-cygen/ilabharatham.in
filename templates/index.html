@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block head %}
+    <title>Home-Ilabharatham</title>
+{% endblock %}}
+{% block menu %}
+                            <li class="active"><a href="/home/">Home</a></li>
+                            <li><a href="/about/">About</a></li>
+                            <li><a href="/gallery/">Gallery</a></li>
+                            <li><a href="/contact/">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/forum/">Forum</a></li>
+                                    <li><a href="/blog/">Blog</a></li>
+                                    <li><a href="/event/">Event</a></li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Organize</li>
+                                    <li><a href="/create/event">Start An Event</a></li>
+                                    <li><a href="/create/blog">Write A Blog</a></li>
+                                </ul>
+                            </li>
+{% endblock %}
+{% block container %}
+
+<div class="row">
+
+    <div class="span8">
+        <div id="myCarousel" class="carousel slide">
+            <!-- Carousel slides -->
+            <div class="carousel-inner">
+                <div class="active item">
+                    <img src="/static/img/slider1.jpg" height="400">
+                    <div class="carousel-caption">
+                        <h4>DesignLoud, LLC</h4>
+                        <p>This is a sample caption for our Twitter Bootstrap tutorial.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/static/img/slider2.jpg" height="400">
+                    <div class="carousel-caption">
+                        <h4>DesignLoud, LLC</h4>
+                        <p>This is a sample caption for our Twitter Bootstrap tutorial.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+        </div>
+    </div>
+        <div class="span4 pull-right">
+        <blockquote><p><h1 class="text-success">Remember that the happiest people are not those getting more , but those who give more</h1></p><hr style="border-top:3px solid #eee;border-bottom:3px solid #fff;"><h5 class="text-info">Helping Hands Are Holier Than Praying Minds</h5></blockquote>
+    </div>
+</div> 
+
+
+
+            <!-- Example row of columns -->
+            <div class="row-fluid">
+                <div class="span4">
+                    <h2>Who Are We</h2>
+                    <img src="/static/img/events/e1.jpg" class="pull-right span5 img-polaroid">
+                    <p>Ilabharatam was born not just out of curiosity but out off concern to help the under priviledged people in the society.Its emphasis is to ensure that every child gets a proper life with good benefits. It strives for the welfare of the differently abled children and nurtures them in all possible ways so as to make them independent. </p>
+                    
+                    <p>Though started by a bunch of youngsters, we believe that Every journey starts with a first step, trying to make a change in the nation and an impact only when we are supported and encouraged by the people around us with the skill that they profess so as to educate the children, by giving out their valuable time to express their love.We are also in need of your support ,time, money, skills and so on as we all know "Unity Is Strength" always so as to fulfill our mission.</p>
+                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="span5">
+                    <h2>Heading2</h2>
+                    <img src="/static/img/events/e1.jpg" class="pull-right span5 img-polaroid">
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn " href="#">View details &raquo;</a></p>
+               </div>
+                <div class="span3">
+                    <h2>Heading3</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p class="pull-right">
+                    <a role="button" href="#Cybergen" data-toggle="modal" class="btn btn-small btn-inverse">
+                        <i class="icon-fire icon-white"></i> CyberGen 2013 <i class="icon-fire icon-white"></i></a>
+            </footer>
+
+{% endblock %}
+{% block script %}
+
+{% endblock %}
