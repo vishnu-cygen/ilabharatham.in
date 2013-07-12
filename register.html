@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<title>Register</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="styles/elegant-press.css" type="text/css" />
+<script src="scripts/elegant-press.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+<!--
+
+var image1=new Image()
+
+image1.src="images/banner.gif"
+
+var image2=new Image()
+
+image2.src="images/banner2.gif"
+
+//-->
+
+</script>
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+  <header>
+
+    <center>
+
+    
+
+    <img src="images/banner.gif" name="slide" width="960" height="200"  alt="banner">
+
+    <script>
+
+<!--
+
+var step=1
+
+function slideit(){
+
+if (!document.images)
+
+return
+
+document.images.slide.src=eval("image"+step+".src")
+
+if (step<2)
+
+step++
+
+else
+
+step=1
+
+setTimeout("slideit()",2500)
+
+}
+
+
+
+slideit()
+
+
+
+//-->
+
+
+
+</script></center>
+
+
+
+  </header>
+</div>
+<div class="main-container">
+  <div id="sub-headline">
+    <div class="tagline_left"><p id="tagline2">Tel: 9655511198 | Mail: <a href="mailto:info#ilabharatham.in">info@ilabharatham.in</a></p></div>
+    <div class="tagline_right">
+      <form action="register.html">
+        <fieldset>
+          <input type="submit" name="go" id="go" value="Register" />
+        </fieldset>
+      </form>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="main-container">
+  <div id="nav-container">
+   <nav> 
+    <ul class="nav">
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="database.php">Database</a></li>
+      <li class="last"><a href="contact.html">Contact</a></li>
+    </ul>
+   </nav> 
+    <div class="clear"></div>
+  </div>
+</div>
+</div>
+<div class="main-container">
+  <div class="container1">
+   <div id="breadcrumb">
+    <ul>
+      <li class="first">You Are Here</li>
+      <li>&#187;</li>
+      <li><a href="index.html">Homepage</a></li>
+      <li>&#187;</li>
+      <li class="current"><a href="register.html">Register</a></li>
+    </ul>
+</div>
+<br />
+<br />
+
+    <div class="box">
+      <form action="reg.php" method="post">
+      <table width="57%" border="1" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="25%" align="right"><font size="+2">First Name  :</font> </td>
+<td width="75%"><span id="sprytextfield1">
+<input type="text" name="fnm" id="text1" tabindex="1">
+<span class="textfieldRequiredMsg">A value is required.</span></span></td>
+          </tr>
+    <tr>
+            <td width="25%" align="right"><font size="+2">Last Name  :</font></td>
+            <td width="75%"><span id="sprytextfield2">
+              <input type="text" name="lnm" id="text2" tabindex="2">
+            <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+        </tr>
+    <tr>
+            <td width="25%" align="right"><font size="+2">E-MailId  :</font></td>
+            <td width="75%"><span id="sprytextfield3">
+            <input type="text" name="emailid" id="text3" tabindex="3">
+            <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
+        </tr>
+        
+        <tr>
+            <td width="25%" align="right"><font size="+2">Current City  :</font></td>
+            <td width="75%"><span id="sprytextfield5">
+              <input type="text" name="ccity" id="text5" tabindex="5">
+            <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Phone Number  :</font></td>
+            <td width="75%"><span id="sprytextfield6">
+            <input type="text" name="pno" id="text6" tabindex="6">
+            <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span><span class="textfieldMinCharsMsg">Invalid format.</span><span class="textfieldMaxCharsMsg"><span class="textfieldMinCharsMsg">Invalid format.</span>Invalid format.</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Date Of Birth  :</font></td>
+            <td width="75%"><span id="spryselect1">
+              <select name="date" tabindex="7" id="select1">
+   <option value="01">1</option>
+   <option value="02">2</option>
+   <option value="03">3</option>
+   <option value="04">4</option>
+   <option value="05">5</option>
+   <option value="06">6</option>
+   <option value="07">7</option>
+   <option value="08">8</option>
+   <option value="09">9</option>
+   <option value="10">10</option>
+   <option value="11">11</option>
+   <option value="12">12</option>
+   <option value="13">13</option>
+   <option value="14">14</option>
+   <option value="15">15</option>
+   <option value="16">16</option>
+   <option value="17">17</option>
+   <option value="18">18</option>
+   <option value="19">19</option>
+   <option value="20">20</option>
+   <option value="21">21</option>
+   <option value="22">22</option>
+   <option value="23">23</option>
+   <option value="24">24</option>
+   <option value="25">25</option>
+   <option value="26">26</option>
+   <option value="27">27</option>
+   <option value="28">28</option>
+   <option value="29">29</option>
+   <option value="30">30</option>
+   <option value="31">31</option>
+</select>
+            <span class="selectRequiredMsg">Please select an item.</span></span>
+            &nbsp;&nbsp;&nbsp;
+            <span id="spryselect2">
+            <select name="month" id="select2" tabindex="8">
+              <option value="01">jan</option>
+   <option value="02">feb</option>
+   <option value="03">mar</option>
+   <option value="04">apr</option>
+   <option value="05">may</option>
+   <option value="06">jun</option>
+   <option value="07">jul</option>
+   <option value="08">aug</option>
+   <option value="09">sep</option>
+   <option value="10">oct</option>
+   <option value="11">nov</option>
+   <option value="12">dec</option>
+            </select>
+            <span class="selectRequiredMsg">Please select an item.</span></span>
+            
+           &nbsp;&nbsp;&nbsp;
+           <span id="spryselect6">
+           <select name="year" id="select6" tabindex="9">
+           
+           <option value="1977">1977</option>
+           <option value="1978">1978</option>
+           <option value="1979">1979</option>
+           <option value="1980">1980</option>
+           <option value="1981">1981</option>
+           <option value="1982">1982</option>
+           <option value="1983">1983</option>
+           <option value="1984">1984</option>
+           <option value="1985">1985</option>
+           <option value="1986">1986</option>
+           <option value="1987">1988</option>
+           <option value="1989">1989</option>
+           <option value="1990">1990</option>
+           <option value="1991" selected="selected">1991</option>
+           <option value="1992">1992</option>
+           <option value="1993">1993</option>
+           <option value="1994">1994</option>
+           <option value="1995">1995</option>
+           <option value="1996">1996</option>
+           <option value="1997">1997</option>
+           <option value="1998">1998</option>
+           <option value="1999">1999</option>
+           <option value="2000">2000</option>
+           <option value="2001">2001</option>
+           <option value="2002">2002</option>
+           <option value="2003">2003</option>
+           <option value="2004">2004</option>
+           <option value="2005">2005</option>
+           <option value="2006">2006</option>
+           <option value="2007">2007</option>
+           <option value="2008">2008</option>
+           <option value="2009">2009</option>
+           <option value="2010">2010</option>
+           <option value="2011">2011</option>
+           <option value="2012">2012</option>
+           <option value="2013">2013</option>
+           <option value="2014">2014</option>
+           <option value="2015">2015</option>
+           <option value="2016">2016</option>
+           <option value="2017">2017</option>
+           <option value="2018">2018</option>
+           <option value="2019">2019</option>
+           <option value="2020">2020</option>
+           </select>
+           <span class="selectRequiredMsg">Please select an item.</span></span></td>
+        </tr>
+        
+        <tr>
+            <td width="25%" align="right"><font size="+2">Blood Group  :</font></td>
+            <td width="75%"><span id="spryselect3">
+              <select name="bloodgrp" id="select3" tabindex="10">
+                <option value="O+ve" selected="selected">O+ve</option>
+      <option value="O-ve">O-ve</option>
+      <option value="AB+ve">AB+ve</option>
+      <option value="AB-ve">AB-ve</option>
+      <option value="A">A+ve</option>
+      <option value="A-ve">A-ve</option>
+      <option value="A1+ve">A1+ve</option>
+      <option value="A2+ve">A2+ve</option>
+      <option value="B">B</option>
+      <option value="B-ve">B-ve</option>
+              </select>
+            <span class="selectRequiredMsg">Please select an item.</span></span>
+            
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Gender  :</font></td>
+            <td width="75%"><span id="spryselect4">
+              <select name="gender" id="select4" tabindex="11">
+              <option value="1" selected="selected">
+      Male</option>
+      <option value="0" >Female </option>
+              </select>
+            <span class="selectRequiredMsg">Please select an item.</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2"> Occupation :</font></td>
+            <td width="75%"><span id="spryselect5">
+              <select name="occup" id="select5" tabindex="12">
+               <option value="student" selected="selected">student</option>
+      <option value="teaching">teaching</option>
+      <option value="engineer">engineer</option>
+      <option value="buisness">buisness</option>
+      <option value="other">other</option>
+              </select>
+            <span class="selectRequiredMsg">Please select an item.</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2"> College Name :</font></td>
+            <td width="75%"><span id="sprytextfield7">
+              <input type="text" name="coll" id="text7" tabindex="13">
+</span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Department  :</font></td>
+            <td width="75%"><span id="sprytextfield8">
+              <input type="text" name="dept" id="text8" tabindex="14">
+</span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Year Of Passout  :</font></td>
+            <td width="75%"><span id="sprytextfield9">
+            <input type="text" name="passout" id="text9" tabindex="15">
+<span class="textfieldInvalidFormatMsg">Invalid format.</span><span class="textfieldMinCharsMsg">Please enter the year.</span><span class="textfieldMaxCharsMsg">Please Enter a year</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Address line 1  :</font></td>
+            <td width="75%"><span id="sprytextfield10">
+              <input type="text" name="add1" id="text10" tabindex="16">
+</span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Address line 2  :</font></td>
+            <td width="75%"><span id="sprytextfield11">
+              <input type="text" name="add2" id="text11" tabindex="17">
+            <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Address line 3  :</font></td>
+            <td width="75%"><span id="sprytextfield12">
+              <input type="text" name="add3" id="text12" tabindex="18">
+</span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">City  :</font></td>
+            <td width="75%"><span id="sprytextfield13">
+              <input type="text" name="city" id="text13" tabindex="19">
+</span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><font size="+2">Pincode  :</font></td>
+            <td width="75%"><span id="sprytextfield14">
+            <input type="text" name="pincode" id="text14" tabindex="20">
+            <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span><span class="textfieldMinCharsMsg">Invalid Format.</span><span class="textfieldMaxCharsMsg">invalid format.</span></span></td>
+        </tr>
+        <tr>
+            <td width="25%" align="right"><input name="vlntr" type="checkbox" value="1" checked tabindex="21"></td>
+            <td width="75%"><font size="+2">Yes ,I am willing to work as a volunteer </font></td>
+        </tr>
+         <tr>
+            <td width="25%" align="right"><input name="bdnr" type="checkbox" value="1"  checked tabindex="22"></td>
+            <td width="75%"><font size="+2">Yes ,I am willing to donate blood  </font></td>
+        </tr>
+            <td width="25%" align="right"><input name="updt" type="checkbox" value="1" checked tabindex="23"></td>
+            <td width="75%"><font size="+2"> Get Updates on events  </font></td>
+        </tr><tr>
+          <td>&nbsp;</td></tr>
+        <tr>
+          <td colspan="2"><center><input name="submit" type="submit" value="Register" tabindex="24"></center></td></tr>
+      </table>
+      </form>
+      <br />
+    <div class="clear"></div>
+
+<br />
+      
+      <div class="clear"></div>
+    </div>
+    
+ 
+ </div>
+<div class="main-container">
+</div>
+ 
+<div class="callout"> 
+    <div class="calloutcontainer"> 
+        <div class="container_12"> 
+            <div class="grid"> 
+                 <article class="footbox">
+      <h2>Quotes</h2>
+      <ul>
+        <li><a href="#">Failure is the steping stones for sucess</a><br />
+        
+		</li>
+        <li><a href="#">Helping Hands Are Holier Than Praying Minds</a><br />
+       
+        </li>
+         <li><a href="#">If You Light A Lamp For Somebody It Will Also Brighten Your Path</a></li>     
+       </ul>
+    </article>
+    <article class="footbox last">
+      <h2>Its Time To Relieve Them</h2><br/>
+      <a href="images/q3.jpg" data-gal="prettyPhoto[gallery]" title="Children Being Forced to work for their Survival">
+      <img src="images/q3.jpg" width="215" height="190" alt="child labour"></a> </article>
+  <article class="latestgallery">
+      <h2>Latest Work</h2>
+      <ul>
+		<li><a href="images/footer/q4.jpg" data-gal="prettyPhoto[gallery]" title="Child holding a barille book"><img src="images/footer/q4.jpg" alt="" width="150" height="95" /></a></li>
+        <li><a href="images/footer/q1.jpg" data-gal="prettyPhoto[gallery]" title="young gifted children havin a shower in the open"><img src="images/footer/q1.jpg" alt=""  width="150" height="95" /></a></li>
+        <li><a href="images/footer/q2.jpg" data-gal="prettyPhoto[gallery]" title="Writing using braille"><img src="images/footer/q2.jpg" alt=""  width="150" height="95" /></a></li>
+        <li><a href="images/footer/q3.jpg" data-gal="prettyPhoto[gallery]" title="Students of Louis Braille School Praying"><img src="images/footer/q3.jpg" alt=""  width="150" height="95" /></a></li>       
+      </ul>
+    </article>
+    
+            <div class="clear"></div> 
+        </div> 
+        <div class="calloutoverlay"></div> 
+        <div class="calloutoverlaybottom"></div> 
+    </div> 
+</div> </div> 
+<footer>
+    <p class="tagline_left">Copyright &copy; 2012 - All Rights Reserved - <a href="http://www.ilabharatham.in">ilabharatham.in (Non Profitable Organisation)</a></p>
+    <p class="tagline_right">Design by <a target="_new" href="http://facebook.com/vishnu667">Vishnu Prasad S</a></p>
+    <br class="clear" />
+  </footer>
+
+
+<br />
+<br />
+
+    <script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {validateOn:["change"]});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "none", {validateOn:["change"]});
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "email", {validateOn:["change"]});
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4", "none", {validateOn:["change"]});
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5", "none", {validateOn:["change"]});
+var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6", "integer", {validateOn:["change"], minChars:10, maxChars:13});
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1", {validateOn:["change"]});
+var spryselect2 = new Spry.Widget.ValidationSelect("spryselect2");
+var spryselect3 = new Spry.Widget.ValidationSelect("spryselect3");
+var spryselect4 = new Spry.Widget.ValidationSelect("spryselect4");
+var spryselect5 = new Spry.Widget.ValidationSelect("spryselect5");
+var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield7", "none", {isRequired:false, validateOn:["change"]});
+var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield8", "none", {isRequired:false, validateOn:["change"]});
+var sprytextfield9 = new Spry.Widget.ValidationTextField("sprytextfield9", "integer", {minChars:2, maxChars:4, isRequired:false, validateOn:["change"]});
+var sprytextfield10 = new Spry.Widget.ValidationTextField("sprytextfield10", "none", {validateOn:["change"], isRequired:false});
+var sprytextfield11 = new Spry.Widget.ValidationTextField("sprytextfield11", "none", {validateOn:["change"]});
+var sprytextfield12 = new Spry.Widget.ValidationTextField("sprytextfield12", "none", {validateOn:["change"], isRequired:false});
+var sprytextfield13 = new Spry.Widget.ValidationTextField("sprytextfield13", "none", {validateOn:["change"], isRequired:false});
+var sprytextfield14 = new Spry.Widget.ValidationTextField("sprytextfield14", "integer", {minChars:6, maxChars:6});
+var sprytextfield15 = new Spry.Widget.ValidationTextField("sprytextfield15", "integer", {validateOn:["change"]});
+var spryselect6 = new Spry.Widget.ValidationSelect("spryselect6");
+    </script>
+</body>
+</html>
