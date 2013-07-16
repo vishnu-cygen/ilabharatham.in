@@ -32,11 +32,11 @@ USE_L10N = True
 
 USE_TZ = True
 
-MEDIA_ROOT = '/srv/ilb/media/'
+MEDIA_ROOT = '/srv/ilabharatham.in/media/'
 
 MEDIA_URL = '/media/'
 
-STATIC_ROOT = '/srv/ilb/static/'
+STATIC_ROOT = '/srv/ilabharatham.in/static/'
 
 STATIC_URL = '/static/'
 
@@ -68,7 +68,7 @@ ROOT_URLCONF = 'ib.urls'
 WSGI_APPLICATION = 'ib.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/srv/ilb/templates",
+    "/srv/ilabharatham.in/templates",
 )
 
 INSTALLED_APPS = (

@@ -1,0 +1,30 @@
+We have not used any dynamic links on the configuration
+
+so please have the folders on the right directories
+
+quick tags
+
+$ sudo mkdir /srv
+$ sudo chmod -S 777 /srv
+$ cd /srv/
+$ git clone https://github.com/vishnu-cygen/ilabharatham.in.git
+
+configuring nginx and /etc/hosts
+
+$ sudo nano /etc/hosts/
+
+// add 127.0.0.1 ilabharatham.in after localhost
+
+127.0.0.1	localhost
+127.0.1.1	cyborg
+127.0.1.1	ilabharatham.in
+
+create a link between the nginx conf file and the nginx sites-enabled 
+
+$ sudo ln -s /srv/ilabharatham.in/ib/nginx.conf /etc/nginx/sites-enabled/ilabharatham.in
+
+reload and restart nginx to activate the site
+
+$ sudo /etc/init.d/nginx reload
+$ sudo /etc/init.d/nginx restart
+
