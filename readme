@@ -19,6 +19,11 @@ $ sudo nano /etc/hosts/
 127.0.1.1	cyborg
 127.0.1.1	ilabharatham.in
 
+SSL i have included ssl links to /srv/ilabharatham.in/ssl
+	these are activated by default
+	in order to have custom ssl keys follow the instructions on
+	ssl keys page	
+
 create a link between the nginx conf file and the nginx sites-enabled 
 
 $ sudo ln -s /srv/ilabharatham.in/ib/nginx.conf /etc/nginx/sites-enabled/ilabharatham.in
